@@ -71,7 +71,7 @@ docker-compose.override.yml
 ## Project specific
 
 # Reverse engineering
-research/
+.research/
 
 # Secrets
-secrets/
+.secrets/
