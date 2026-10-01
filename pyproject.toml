@@ -1,0 +1,21 @@
+[project]
+name = "crown"
+version = "0.1.0"
+description = "NIKKE dashboard for union leaders"
+readme = "README.md"
+authors = [
+    { name = "TsunomakiWatamelon", email = "83554610+TsunomakiWatamelon@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.142.2",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.5",
+]
+
+[project.scripts]
+crown = "crown:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
